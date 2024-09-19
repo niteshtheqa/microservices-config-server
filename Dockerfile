@@ -48,4 +48,4 @@ RUN mvn clean package -Dmaven.test.skip=true
 EXPOSE 8888
 
 # Run the config server
-CMD ["java", "-jar", "target/config-server.jar"]
+CMD ["java", "-jar", "target/ConfigServer-0.0.1-SNAPSHOT.jar"]
